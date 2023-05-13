@@ -27,7 +27,7 @@ body {
   background-color: white;
   width: 20rem;
   height: 32rem;
-  margin-top: 2rem;
+  margin-top: 6rem;
   border-radius: 10px;
 }
 .illustration {
@@ -115,8 +115,7 @@ body {
   padding: 12px 62px 12px 62px;
   cursor: pointer;
   border-radius: 10px;
-  box-shadow:  20px 10px 20px #dbd7fe,
-             0px 15px 10px #dbd7fe;
+  box-shadow: 20px 10px 20px #dbd7fe, 0px 15px 10px #dbd7fe;
 }
 .button-element:hover {
   background-color: #766df0;
@@ -124,7 +123,7 @@ body {
 .cancel-order {
   margin-top: 2rem;
   text-decoration: none;
-  color: hsl(224, 23%, 55%);;
+  color: hsl(224, 23%, 55%);
   font-weight: 600;
   cursor: pointer;
 }
