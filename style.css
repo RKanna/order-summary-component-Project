@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  width: 100vh;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   font-family: "Red Hat Display", sans-serif;
   background-image: url(pattern-background-desktop.svg);
   background-repeat: no-repeat;
@@ -16,12 +16,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-.card-container {
+.card {
   display: flex;
-  margin: auto;
-  width: 400px;
-  height: 700px;
-  background-color: blue;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+.card-container {
+  margin: auto;
+  background-color: white;
+  width: 50vh;
+  height: 70vh;
+  margin-top: 6rem;
+  border-radius: 10px;
+}
+.illustration {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  border-radius: 10px 10px 0px 0px;
 }
