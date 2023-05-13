@@ -99,6 +99,7 @@ body {
 }
 .plan-anchor:hover {
   color: #8178d8;
+  text-decoration: none;
 }
 .button-container {
   width: 40%;
