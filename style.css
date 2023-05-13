@@ -26,8 +26,8 @@ body {
   margin: auto;
   background-color: white;
   width: 20rem;
-  height: 27rem;
-  margin-top: 6rem;
+  height: 32rem;
+  margin-top: 2rem;
   border-radius: 10px;
 }
 .illustration {
@@ -58,7 +58,7 @@ body {
   height: 4.3rem;
   background-color: hsl(225, 100%, 98%);
   border-radius: 10px;
-  margin-top: -4.75rem;
+  margin-top: -4.5rem;
 }
 .music-img-container {
   width: 25%;
@@ -99,4 +99,34 @@ body {
 }
 .plan-anchor:hover {
   color: #8178d8;
+}
+.button-container {
+  width: 40%;
+  height: 2rem;
+  font-size: 11px;
+  margin-top: -3rem;
+}
+.button-element {
+  border: none;
+  color: white;
+  font-weight: 600;
+  background-color: hsl(245, 75%, 52%);
+  padding: 12px 62px 12px 62px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow:  20px 10px 20px #dbd7fe,
+             0px 15px 10px #dbd7fe;
+}
+.button-element:hover {
+  background-color: #766df0;
+}
+.cancel-order {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
 }
